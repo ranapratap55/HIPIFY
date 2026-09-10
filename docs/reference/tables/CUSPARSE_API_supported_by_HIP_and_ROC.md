@@ -41,7 +41,7 @@
 |`CUSPARSE_FILL_MODE_LOWER`| | | | |`HIPSPARSE_FILL_MODE_LOWER`|1.9.2| | | | | |`rocsparse_fill_mode_lower`|1.9.0| | | | |
 |`CUSPARSE_FILL_MODE_UPPER`| | | | |`HIPSPARSE_FILL_MODE_UPPER`|1.9.2| | | | | |`rocsparse_fill_mode_upper`|1.9.0| | | | |
 |`CUSPARSE_FORMAT_BLOCKED_ELL`|11.2| | | |`HIPSPARSE_FORMAT_BLOCKED_ELL`|4.5.0| | | | | |`rocsparse_format_bell`|4.5.0| | | | |
-|`CUSPARSE_FORMAT_BSR`|12.1| | | | | | | | | | |`rocsparse_format_bsr`|5.3.0| | | | |
+|`CUSPARSE_FORMAT_BSR`|12.1| | | |`HIPSPARSE_FORMAT_BSR`|7.14.0| | | | | |`rocsparse_format_bsr`|5.3.0| | | | |
 |`CUSPARSE_FORMAT_COO`|10.1| | | |`HIPSPARSE_FORMAT_COO`|4.1.0| | | | | |`rocsparse_format_coo`|4.1.0| | | | |
 |`CUSPARSE_FORMAT_COO_AOS`|10.2| | |12.0|`HIPSPARSE_FORMAT_COO_AOS`|4.1.0| | | | | |`rocsparse_format_coo_aos`|4.1.0| | | | |
 |`CUSPARSE_FORMAT_CSC`|10.1| | | |`HIPSPARSE_FORMAT_CSC`|4.1.0| | | | | |`rocsparse_format_csc`|4.1.0| | | | |
@@ -89,7 +89,7 @@
 |`CUSPARSE_SPMMA_PREPROCESS`|11.1| | |11.2| | | | | | | | | | | | | |
 |`CUSPARSE_SPMM_ALG_DEFAULT`|11.0| | | |`HIPSPARSE_SPMM_ALG_DEFAULT`|4.2.0| | | | | |`rocsparse_spmm_alg_default`|4.2.0| | | | |
 |`CUSPARSE_SPMM_BLOCKED_ELL_ALG1`|11.2| | | |`HIPSPARSE_SPMM_BLOCKED_ELL_ALG1`|4.5.0| | | | | |`rocsparse_spmm_alg_bell`|4.5.0| | | | |
-|`CUSPARSE_SPMM_BSR_ALG1`|12.5| | | | | | | | | | | | | | | | |
+|`CUSPARSE_SPMM_BSR_ALG1`|12.5| | | |`HIPSPARSE_SPMM_BSR_ALG1`|7.14.0| | | | | |`rocsparse_spmm_alg_bsr`|5.3.0| | | | |
 |`CUSPARSE_SPMM_COO_ALG1`|11.0| | | |`HIPSPARSE_SPMM_COO_ALG1`|4.2.0| | | | | |`rocsparse_spmm_alg_coo_segmented`|4.2.0| | | | |
 |`CUSPARSE_SPMM_COO_ALG2`|11.0| | | |`HIPSPARSE_SPMM_COO_ALG2`|4.2.0| | | | | |`rocsparse_spmm_alg_coo_atomic`|4.2.0| | | | |
 |`CUSPARSE_SPMM_COO_ALG3`|11.0| | | |`HIPSPARSE_SPMM_COO_ALG3`|4.2.0| | | | | |`rocsparse_spmm_alg_coo_segmented_atomic`|4.5.0| | | | |
@@ -99,7 +99,7 @@
 |`CUSPARSE_SPMM_CSR_ALG3`|11.2| | | |`HIPSPARSE_SPMM_CSR_ALG3`|4.5.0| | | | | |`rocsparse_spmm_alg_csr_merge`|4.5.0| | | | |
 |`CUSPARSE_SPMM_OP_ALG_DEFAULT`|11.5|13.2| | | | | | | | | | | | | | | |
 |`CUSPARSE_SPMV_ALG_DEFAULT`|11.2| | | |`HIPSPARSE_SPMV_ALG_DEFAULT`|4.5.0| | | | | |`rocsparse_spmv_alg_default`|4.1.0| | | | |
-|`CUSPARSE_SPMV_BSR_ALG1`|13.0| | | | | | | | | | | | | | | | |
+|`CUSPARSE_SPMV_BSR_ALG1`|13.0| | | |`HIPSPARSE_SPMV_BSR_ALG1`|7.14.0| | | | | |`rocsparse_spmv_alg_bsr`|5.3.0| | | | |
 |`CUSPARSE_SPMV_COO_ALG1`|11.2| | | |`HIPSPARSE_SPMV_COO_ALG1`|4.5.0| | | | | |`rocsparse_spmv_alg_coo`|4.1.0| | | | |
 |`CUSPARSE_SPMV_COO_ALG2`|11.2| | | |`HIPSPARSE_SPMV_COO_ALG2`|4.5.0| | | | | |`rocsparse_spmv_alg_coo_atomic`|5.3.0| | | | |
 |`CUSPARSE_SPMV_CSR_ALG1`|11.2| | | |`HIPSPARSE_SPMV_CSR_ALG1`|4.5.0| | | | | |`rocsparse_spmv_alg_csr_adaptive`|4.1.0| | | | |
